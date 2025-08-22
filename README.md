@@ -50,3 +50,57 @@ sales.customer_key → customers.customer_key
 View Created:
 
 gold.report_customer → Aggregated customer-level dataset for BI reporting
+
+---
+## 📈 Analysis Performed
+1️⃣ Sales Performance
+
+- Total sales by year & month
+
+- Running totals with SUM() OVER(ORDER BY ...)
+
+- Moving average of prices (1-month, 3-month)
+
+- Identifies trends and seasonality in sales
+
+2️⃣ Product Insights
+
+- Yearly sales per product compared to average product performance
+
+- Year-over-year (YoY) growth using LAG()
+
+- Product category contribution to total sales
+
+- Cost-based segmentation (<100, 100–500, 500–1000, >1000)
+
+3️⃣ Customer Analytics
+
+- Segmentation based on spending & activity history:
+
+- VIP → ≥ 12 months active & spending > €5000
+
+- Regular → ≥ 12 months active & spending ≤ €5000
+
+- New → < 12 months active
+
+- Age group segmentation (<20, 20–29, 30–39, 40–49, 50+)
+
+Key KPIs:
+
+- Recency (months since last purchase)
+
+- Lifespan (months active)
+
+- Average Order Value (AOV)
+
+- Average Monthly Spend
+
+- Total Orders, Products, Quantity
+
+4️⃣ Reporting View
+
+- gold.report_customer consolidates:
+
+- Customer demographics, segment, KPIs, and transactional metrics
+
+- Ready-to-use for BI dashboards (Power BI, Tableau, Looker, etc.)
