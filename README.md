@@ -29,3 +29,24 @@ Audience: Data Analysts, BI Engineers, Data Science aspirants, SQL enthusiasts.
 - 04_customer_segmentation.sql   - Customer VIP/Regular/New, age groups, KPIs
 - 05_report_customer_view.sql    - Consolidated customer reporting view
 - README.md
+
+---
+## 🏗️ Database Model
+
+Tables:
+
+gold.sales → Order-level transactions (order_date, sales_amount, quantity, price, product_key, customer_key)
+
+gold.products → Product info (product_name, category, cost, price)
+
+gold.customers → Customer info (customer_number, first_name, last_name, birthdate)
+
+Relationships:
+
+sales.product_key → products.product_key
+
+sales.customer_key → customers.customer_key
+
+View Created:
+
+gold.report_customer → Aggregated customer-level dataset for BI reporting
