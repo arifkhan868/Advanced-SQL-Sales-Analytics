@@ -104,7 +104,12 @@ Key KPIs:
 
 - Language: SQL
 
+---
+## 🧑‍💻 Author
 
+👤 Ariful Islam
+📧 Email : arifkhan.nsd14@gmali.com
+🌐 GitHub: arifkhan868
 
 
 
