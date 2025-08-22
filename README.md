@@ -19,3 +19,13 @@ Customer segmentation, KPIs, and reporting views
 
 Goal: Build a BI-ready dataset and generate insights for business decision-making.
 Audience: Data Analysts, BI Engineers, Data Science aspirants, SQL enthusiasts.
+
+---
+## 📂 Repository Structure
+├── queries/
+│   ├── 01_sales_analysis.sql           # Sales by year/month, running totals, moving averages
+│   ├── 02_product_performance.sql     # Product sales vs avg, YoY change
+│   ├── 03_category_contribution.sql   # Category contribution %, cost segmentation
+│   ├── 04_customer_segmentation.sql   # Customer VIP/Regular/New, age groups, KPIs
+│   └── 05_report_customer_view.sql    # Consolidated customer reporting view
+├── README.md
